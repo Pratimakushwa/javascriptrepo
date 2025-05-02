@@ -25,5 +25,16 @@ console.log(number, typeof number);
 var id = Symbol(id);
 console.log(id, typeof id);
 
+const a;
+console.log(a);
+var b;
+console.log(b);
+let c;
+console.log(c);
+
+
+
+
+
 
 
