@@ -17,7 +17,7 @@ console.log(number[1]);
 console.log(number[2]);
 //function
 //function declaration
-function display(){
+function display(){                                                                                  
     console.log("hello everyone");
     alert("hello");
     
