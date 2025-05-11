@@ -45,37 +45,79 @@
 //    console.log(x)
 
 //////
-  let x  = Math.floor(Math.random()*50)+1
-   let  y= Math.floor(Math.random()*100)+1
-   let sum = x+y
-   let product = x*y
-   let difference= x/y
-   let  questient = x+y
+  // let x  = Math.floor(Math.random()*50)+1
+  //  let  y= Math.floor(Math.random()*100)+1
+  //  let sum = x+y
+  //  let product = x*y
+  //  let difference= x/y
+  //  let  questient = x+y
 
-   console.log( x+y)
-   console.log( x*y);
-   console.log(x/y);
-   console.log( x%y);
+  //  console.log( x+y)
+  //  console.log( x*y);
+  //  console.log(x/y);
+  //  console.log( x%y);
    
-   //by default , javascript will use the browser's time zone and display a date 
-    //as full text string
-    console.log(d);
+  //  //by default , javascript will use the browser's time zone and display a date 
+  //   //as full text string
+  //   console.log(d);
     //there are 4 ways to create a new date object
     //new date ()
     //new date (year ,month,days,hours, second , milisecond)
     //new date (milisecond)
     //new date(date string)
     //month - 0 to 11
-    d = new date (2020,4,3,23,34,53 ,898 );
-    d = new date (2020,4,3,23,34,53 , );
+    // d = new date (2020,4,3,23,34,53 ,898 );
+    // d = new date (2020,4,3,23,34,53 , );
 
-    d = new date (2020,4,3,23,34, );
+    // d = new date (2020,4,3,23,34, );
 
-    d = new date (2020);
-    //milisecond
-    d = new date(4854853);
-    console.log(d);
+    // d = new date (2020);
+    // //milisecond
+    // d = new date(4854853);
+    // console.log(d);
     
+
+// // console.log(myDate.toDateString());
+// // console.log(myDate.toLocaleString());
+// // console.log(myDate.toISOString());
+// // console.log(myDate.toLocaleDateString());
+// // console.log(myDate.toTimeString());
+// let myCreatedDate = new Date("01-14-2023")
+// // console.log(myCreatedDate.toDateString());
+
+
+// let myTimeStemp= Date.now()
+// console.log(myTimeStemp);
+// console.log(myCreatedDate.getTime());//milisecond me krega
+//second me krne ke liye
+//console.log(Math.floor(Date.now()/1000));
+
+// let newDate= new Date()
+// console.log(newDate);
+// console.log(newDate.getMonth()+1);
+// console.log(newDate.getDay());
+// console.log(newDate.getMinutes());
+// console.log(newDate.getSeconds());
+
+let today = new Date();
+// console.log(today);
+// console.log(today.toDateString());
+// console.log(today.getFullYear());
+console.log("time:",today.getHours(),today.getMinutes(),today.getSeconds(),today.getFullYear());
+// console.log(today.getMonth());
+// console.log(today.getDay());
+// console.log(today.getDay());
+// let Date= new Date("08-15-2025")
+// console.log(Date);
+
+
+
+
+
+
+
+
+
 
 
 
