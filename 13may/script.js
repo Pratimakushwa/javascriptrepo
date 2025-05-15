@@ -49,3 +49,11 @@
 // console.log(age);
 
 
+const arr = [2,3,4,5,6,3,4,2]
+const uniquearr=[...new Set(arr)];
+console.log(uniquearr);
+
+const arr1=[1,2,3,4,5,6]
+const arr2=[1,2,3,4,5,6]
+const union=[...new Set([arr1,...arr2])]
+console.log(union);
