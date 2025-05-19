@@ -13,7 +13,7 @@
 // const arr= ["thor","ironman",];
 // const reversarr=[...arr].reverse();
 // console.log(reversarr);
-// const input= "madam"
+// // const input= "madam"
 // const reversarr= input.split('').reverse('').join();
 // console.log(input==reversarr);
 
@@ -49,11 +49,31 @@
 // console.log(age);
 
 
-const arr = [2,3,4,5,6,3,4,2]
-const uniquearr=[...new Set(arr)];
-console.log(uniquearr);
+// const arr = [2,3,4,5,6,3,4,2]
+// const uniquearr=[...new Set(arr)];
+// console.log(uniquearr);
 
-const arr1=[1,2,3,4,5,6]
-const arr2=[1,2,3,4,5,6]
-const union=[...new Set([arr1,...arr2])]
-console.log(union);
+// const arr1=[1,2,3,4,5,6]
+// const arr2=[1,2,3,4,5,6]
+// const union=[...new Set([arr1,...arr2])]
+// console.log(union);
+
+// write to program print only one key of an object
+ let ob={
+     name:"anshu",
+      age: 40, 
+      city:"bhopal" ,
+       salary:90
+    }
+    const key= object .keys(ob)
+    console.log(key[0]);
+    
+     let ob={
+     name:"anshu",
+      age: 40, 
+      city:"bhopal" ,
+       salary:90
+    }
+    for ( let keys in ob)
+    console.log(keys);
+    
