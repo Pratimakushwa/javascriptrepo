@@ -59,21 +59,33 @@
 // console.log(union);
 
 // write to program print only one key of an object
- let ob={
-     name:"anshu",
-      age: 40, 
-      city:"bhopal" ,
-       salary:90
-    }
-    const key= object .keys(ob)
-    console.log(key[0]);
+//  let ob={
+//      name:"anshu",
+//       age: 40, 
+//       city:"bhopal" ,
+//        salary:90
+//     }
+//     const key= object .keys(ob)
+//     console.log(key[0]);
     
-     let ob={
-     name:"anshu",
-      age: 40, 
-      city:"bhopal" ,
-       salary:90
-    }
-    for ( let keys in ob)
-    console.log(keys);
+//      let ob={
+//      name:"anshu",
+//       age: 40, 
+//       city:"bhopal" ,
+//        salary:90
+//     }
+//     for ( let keys in ob)
+//     console.log(keys);
     
+(function(){
+const name={
+    name: pratima,
+   age : 22,
+}
+console.log(name.name);
+console.log(name.age);
+
+
+   
+
+})()
