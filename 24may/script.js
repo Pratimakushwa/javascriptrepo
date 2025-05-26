@@ -18,12 +18,12 @@ let para = document.getElementById("para")
 // let input = document.getElementById("myinput")
 // input. value=" indore "//attribute change
 
-function some(){
-    let input = document.getElementById("myinput").value
-    let h1 = document.getElementById("head");
-    h1.innerHTML = input;
+// function some(){
+//     let input = document.getElementById("myinput").value
+//     let h1 = document.getElementById("head");
+//     h1.innerHTML = input;
     
-}
+// }
 
 // the addEventListener()
 // th e addEventListener() method attaches an  event handler
@@ -31,6 +31,13 @@ function some(){
 // let button = document.getElementById("btn")
 // button.addEventListener("click", function(){
 //     console.log("clicked");
-//     h1.style
+//     h1.style.color="blue";
     
 // })
+let button=document.getElementById("btn")
+ button.addEventListener("click", display1);
+ function display1(){
+    console.log("button clicked");
+    h1.style.color="blue";
+    
+ }
