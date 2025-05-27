@@ -33,3 +33,12 @@ let arr= [1,2,3,4,5,6,7,8,9,10]
 let [a,b,c,d,e,f,g]=arr
 let multiplication = a*b*c*d*e*f*g;
 console.log(multiplication);
+
+function add(){
+    let input= document .getElementById("myinput")
+    let num1 = input.value
+    
+    let input2= document .getElementById("myinput1")
+    let num2 = input.value
+   
+}
