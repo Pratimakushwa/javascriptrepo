@@ -46,3 +46,68 @@ let arr=[1,2,3,4,5,6,7,8,9,10]
 //     console.log(val);
     
 // }
+
+// for(let i=1; i<=5;i++){
+//     for(let j=1; j>=i; j++){
+//     document.writeln("*")
+//     document.writeln("&nbsp")
+        
+//     }
+//     document.writeln("<br>")
+// }
+
+// for (let i =1; i<=5;i++){
+//     for (let j=1; j<=5; j++){
+       
+//         if(i==1||i==5||j==1|| j==5){
+//              document.writeln("*");
+//         }
+//         else{
+//             document.writeln("&nbsp; &nbsp;");
+//         }
+//         document.writeln("<br>")
+//     }
+
+// }
+// for(let i=1; i<=5;i++){
+//     for(let j=1; j<=i; j++){
+//     document.writeln("*")
+//     document.writeln("&nbsp")
+        
+//     }
+//     document.writeln("<br>")
+// }
+
+// for(let i=1; i<=10; i++){
+//     for(let b= 1; b<=10; b++){
+//         if(b%2==0){
+//         console.log(i*b);
+
+//         }
+       
+        
+//     }
+
+// }
+// for(let i = 1; i<=10;i++){
+//     console.log(i*i*i);
+    
+// }
+
+// let num =123
+// let reverse=0;
+// while(num>0){
+//     let digit=num%10;
+//     reverse = reverse*10+digit
+//     num= Math.floor(num/10)
+// }
+// console.log(reverse)
+
+
+ 
+for (let i = 1; i<=10; i++){
+    if(i%2!=0){
+        console.log(i);
+        
+    }
+}

@@ -77,15 +77,24 @@
 //     for ( let keys in ob)
 //     console.log(keys);
     
-(function(){
-const name={
-    name: pratima,
-   age : 22,
-}
-console.log(name.name);
-console.log(name.age);
+// (function(){
+// const name={
+//     name: pratima,
+//    age : 22,
+// }
+// console.log(name.name);
+// console.log(name.age);
 
 
    
 
-})()
+// })()
+
+let n=prompt("enter the number")
+
+let i=1;
+while(i<=10){
+    console.log(n*i);
+    i++
+    
+}
