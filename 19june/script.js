@@ -105,9 +105,53 @@ let arr=[1,2,3,4,5,6,7,8,9,10]
 
 
  
-for (let i = 1; i<=10; i++){
-    if(i%2!=0){
-        console.log(i);
+// for (let i = 1; i<=10; i++){
+//     if(i%2!=0){
+//         console.log(i);
         
+//     }
+// }
+
+
+for (let i = 5; i>= 1; i--) {
+    for (let j=5; j<i; j--){
+        document.writeln( "&nbsp;" )
     }
+    for(let k=1; k>i; k++){
+     document.writeln(" * ");
+
+
+    }
+    document.writeln("<br>")
+
 }
+// arrys
+//  let arry=[1,2,3,4,56,7]
+// for(let i=0; i<=arr.length; i++){
+//     console.log(arr.length);
+    
+// }
+// arry methods
+// toString is used to convert arry to string
+// let a=[1,2,34,5,6]
+// let b= a.toString()
+// console.log(b);
+
+// 2 method join method
+// let arry= [1,3,4,5,6,7]
+// console.log(typeof arry);
+
+// let b =arry.toString()
+// console.log(typeof b);
+
+// let c= arry.join("_ ")
+// console.log(c);
+// console.log(typeof c);
+
+let num= [1,2,3,4,5]
+console.log(num.length);
+delete num[0]
+console.log(num);
+
+
+
