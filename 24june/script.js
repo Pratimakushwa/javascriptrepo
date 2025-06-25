@@ -18,13 +18,13 @@
 // console.log(object.name);
 
 
-let emp ={
-    emp_name: "pratima",
-    emp_id : "101"
-}
-emp.mail="@pratima23.com"
-emp.emp_name= "depali"
-console.log(emp);
+// let emp ={
+//     emp_name: "pratima",
+//     emp_id : "101"
+// }
+// emp.mail="@pratima23.com"
+// emp.emp_name= "depali"
+// console.log(emp);
 
 
 
@@ -51,3 +51,28 @@ console.log(emp);
     
 // }
 // // print only one key
+
+let obj={
+    name:"pratima",
+    age:21,
+    contact:prompt("enter the number")
+
+}
+console.log( Object.keys(obj)[0]);
+// console.log(a.age);
+// console.log(a.contact);
+
+// a.mail="@1223pratima.com"
+// console.log(a.mail);
+
+// for (let k in a){
+//     // console.log(k);
+//     console.log(a [k]);
+    
+    
+
+// }
+
+
+
+
