@@ -52,13 +52,13 @@
 // }
 // // print only one key
 
-let obj={
-    name:"pratima",
-    age:21,
-    contact:prompt("enter the number")
+// let obj={
+//     name:"pratima",
+//     age:21,
+//     contact:prompt("enter the number")
 
-}
-console.log( Object.keys(obj)[0]);
+// }
+// console.log( Object.keys(obj)[0]);
 // console.log(a.age);
 // console.log(a.contact);
 
@@ -74,5 +74,31 @@ console.log( Object.keys(obj)[0]);
 // }
 
 
+// let  obj={
+//     name:"pratima",
+//     age: 21,
+//     contact:1234234567,
+// }
+// console.log(obj.name);
+// console.log(obj.age);
+// console.log(obj.contact);
+// obj.mail="@7785prati.com"
+// console.log(obj);
 
+let obj={
+     name:"pratima",
 
+     age: 21,
+     contact: 1234567,
+}
+for( let k in obj){
+    // console.log(k);
+    // console.log(obj[k]);
+    console.log (Object.keys(obj)[0]);
+    
+}
+// console.log(obj);
+// console.log ( Object.keys(obj)[0]);
+// let table={
+//     let a =prompt("")
+// }
