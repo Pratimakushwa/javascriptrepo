@@ -92,13 +92,67 @@ let obj={
      contact: 1234567,
 }
 for( let k in obj){
-    // console.log(k);
-    // console.log(obj[k]);
-    console.log (Object.keys(obj)[0]);
+    // console.log(k);//keys
+    // console.log(obj[k]);//values
+
     
 }
 // console.log(obj);
-// console.log ( Object.keys(obj)[0]);
-// let table={
-//     let a =prompt("")
-// }
+console.log ( Object.keys(obj)[0]);//print only one key66666666666666666666666666666666666666666
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2222210
+
