@@ -39,14 +39,14 @@
     // console.log(ob.country());
     // //write a program to take three input from the user and ptint multiplcation of  using function
 
-   let sum= function multiply( a,b,c){
-     return a*b*c
-    }
-    let a= parseInt(prompt(" enter the first number"))
-    let b=parseInt( prompt("enter the second number"))
-    let c= parseInt(prompt(" enter the third number"))
-    let result=sum(a,b,c)
-    console.log(result);
+  //  let sum= function multiply( a,b,c){
+  //    return a*b*c
+  //   }
+  //   let a= parseInt(prompt(" enter the first number"))
+  //   let b=parseInt( prompt("enter the second number"))
+  //   let c= parseInt(prompt(" enter the third number"))
+  //   let result=sum(a,b,c)
+  //   console.log(result);
     
 
     // write a program to take radius from user and print the area of circle using type 4 fuction
@@ -56,4 +56,42 @@
   // }
   
   // console.log(demo());
+  
+
+// function add ( a,b){
+//  return a+b
+ 
+//   }
+//   console.log(add( 2,3));
+  
+  // function num( a){
+  // if (a%2==0){
+  //   console.log("even");
+  //   }
+  // else{
+  //   console.log("odd");
+    
+  // }
+  // }
+  // let a =prompt("enter the number")
+  // num(a)
+
+  // function multiply( a,b,c){
+  //  return a*b*c
+
+  // }
+  // let a= prompt("enter the  first number")
+  // let b = prompt("enter the second number")
+  // let c= prompt ("enter the third number")
+  // let d= multiply(a,b,c)
+  // console.log(d);
+
+  //  function name(a){
+  //   console.log(a);
+    
+
+  //  }
+  //  let a= prompt("enter the name")
+  //  name(a)
+
   
