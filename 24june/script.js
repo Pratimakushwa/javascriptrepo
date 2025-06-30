@@ -98,7 +98,7 @@ for( let k in obj){
     
 }
 // console.log(obj);
-console.log ( Object.keys(obj)[0]);//print only one key66666666666666666666666666666666666666666
+console.log ( Object.keys(obj)[0]);//print only one key6
 
 
 

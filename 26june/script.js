@@ -35,7 +35,7 @@
     //   },
     //   country: ()=>{return "india"}
     // }
-    // Object.location()
+    // ob.location()
     // console.log(ob.country());
     // //write a program to take three input from the user and ptint multiplcation of  using function
 
@@ -94,4 +94,34 @@
   //  let a= prompt("enter the name")
   //  name(a)
 
+  let obj={
+    name:"pratima",
+    age:21,
+    contact:1234576,
+    location: function(){
+     let c= prompt("enter your name")
+    },
+    country: ()=>{
+      return "india"
+    }
+
+  }
+  // obj.email=" @23456gmail.com"
+  // console.log(obj);
   
+  obj.location()
+  // // console.log(obj);
+  // console.log(obj.name);
+  // console.log(obj.age);
+  // console.log(Object.keys(obj));
+  // console.log(Object.values(obj));
+  // console.log(Object.keys(obj)[0]);
+  
+// obj.location();
+// console.log(obj.country());
+
+
+
+
+
+   
