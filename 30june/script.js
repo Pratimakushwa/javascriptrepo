@@ -75,5 +75,39 @@ function yes(){
     
 }
 
+let count=0
+function add(){
+     count++
+    let c= document.getElementById('count')
+    c.textContent=count
+    if(count % 2!==0){
+        c.style.color="red"
+
+    }
+    else{
+        c.style.color="black"
+    }
+    
+}
+function sub(){
+    if(count!=0){
+        
+     count--
+   
+    }
+   
+    let b= document.getElementById('count')
+    b.textContent=count
+    if(count % 2!==0){
+        b.style.color="red"
+
+    }
+    else{
+        b.style.color="black"
+    }
+    
+    
+}
+
 
 
