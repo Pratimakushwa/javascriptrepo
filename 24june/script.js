@@ -8,7 +8,7 @@
 // console.log(object.name);
 
 
-//  let object={
+//  let object={1
 //     name:prompt("enter the name"),
 //     contact: prompt(" enter the number"),
 //     city:prompt("enter the city")
@@ -85,20 +85,39 @@
 // obj.mail="@7785prati.com"
 // console.log(obj);
 
-let obj={
-     name:"pratima",
+// let obj={
+//      name:"pratima",
 
-     age: 21,
-     contact: 1234567,
-}
-for( let k in obj){
-    // console.log(k);//keys
-    // console.log(obj[k]);//values
+//      age: 21,
+//      contact: 1234567,
+// }
+// for( let k in obj){
+//     // console.log(k);//keys
+//     // console.log(obj[k]);//values
 
     
+// }
+// // console.log(obj);
+// console.log ( Object.keys(obj)[0]);//print only one key6
+
+
+let ob={
+    name:"pratima",
+    age:21,
+    contact:55667890,
+   
+
 }
-// console.log(obj);
-console.log ( Object.keys(obj)[0]);//print only one key6
+ob.email="pratima@23"
+
+for (let k in ob){
+    //  console.log(k)
+     console.log(ob[k]);
+     
+
+}
+// console.log(Object.keys(ob)[0]);
+
 
 
 
