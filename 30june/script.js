@@ -156,14 +156,19 @@
 
 // }
 
-let count=0
-function sub(){
-    count--;
-    let a=document.getElementById('zero')
-    a.textContent=count
-}
-function add(){
-    count++;
-    let a=document.getElementById('zero')
-    a.textContent=count
-}
+// let count=0
+// function sub(){
+//     count--;
+//     let a=document.getElementById('zero')
+//     a.textContent=count
+// }
+// function add(){
+//     count++;
+//     let a=document.getElementById('zero')
+//     a.textContent=count
+// }
+
+
+
+
+
