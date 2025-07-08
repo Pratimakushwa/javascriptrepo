@@ -18,13 +18,29 @@ let emp=[
 
 //  let a=emp.slice(2,3)
 //  console.log(a);
- 
 
 
-let newarry=emp.map((e) =>{return e.age>20})
-console.log(newarry);
+// let data=
+//     {name:"riya",
+//          age:67,
+//           city:"mumbai",
+//           contact:2345678}
+
+
+//  emp.push(data)
+// console.log(emp);
+
+
+// let newarry=emp.map((e) =>{ return e})
+
+
+// console.log(newarry);
 
 // let newarry=emp.filter((e) =>{return e.age<20})
 // console.log(newarry);
 
+
+
+// let a=emp.slice(2,3)
+// console.log(a);
 
