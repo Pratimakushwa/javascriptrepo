@@ -1,8 +1,10 @@
-let btn= document.querySelector('#btn')
-btn.addEventListener('click',function(){
-let wr =document.querySelector('.main')
-    wr.classList.toggle('main')
-   document.body.style.backgroundColor="dark"
+let b =document.querySelector('.btn')
+b.addEventListener('click',function(){
 
-
+ document.body.classList.toggle('dark')
+    if (document.body.classList('dark')) {
+     b.textContent = "Light";
+    }else {
+    b.textContent = "Dark";
+            }
 })

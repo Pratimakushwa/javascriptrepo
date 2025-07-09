@@ -39,9 +39,9 @@
 // })
 
 
-let n= document.querySelector('.name')
- n.addEventListener('click', function(){
-    let s= document.querySelector('#top')
-    s.classList.toggle('main')
-})
+// let n= document.querySelector('.name')
+//  n.addEventListener('click', function(){
+//     let s= document.querySelector('#top')
+//     s.classList.toggle('main')
+// })
 
