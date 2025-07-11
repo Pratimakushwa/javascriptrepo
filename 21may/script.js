@@ -9,10 +9,10 @@
 // let h1 = document.querySelector("#demo");
 // console.log(h1);
 
-// let h1 = document.querySelectorAll("#demo");
-// console.log(h1);
-// let h1 = document.getElementById("demo")
-// h1.innerText= "hello world"
+let h1 = document.querySelectorAll("#demo");
+console.log(h1);
+let h = document.getElementById("demo")
+h.innerText= "hello world"
 
 // let name= 
 //     prompt(" enter  your name")
@@ -24,18 +24,18 @@
 // h1.innerText=" hello world "
 // h1.innerHTML= ` <p> hi i am form</p>`
 
-let h1 = document.getElementById("demo")
-h1.innerHTML = ` <table border= " "> 
-<tr>
-<th> name </th> 
-<th> age</th> 
-</tr>
-<tr>
-<td> pratima</td>
-<td> 22 </td>
-</tr>
- </table>`
+// let h1 = document.getElementById("demo")
+// h1.innerHTML = ` <table border= " "> 
+// <tr>
+// <th> name </th> 
+// <th> age</th> 
+// </tr>
+// <tr>
+// <td> pratima</td>
+// <td> 22 </td>
+// </tr>
+//  </table>`
  
- let img = document.getElementById("myimg");
+//  let img = document.getElementById("myimg");
 
- img.src =" leaves.jpg";
+//  img.src =" leaves.jpg";

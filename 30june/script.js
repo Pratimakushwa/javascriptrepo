@@ -68,23 +68,23 @@
 
 
 
-// function num(){
-//     let c= document.getElementById('head4')
-//     if(c.textContent==="pratima"){
-//           c.textContent="pramita";
-//     }
-//     else{
-//         c.textContent="pratima";
-//     }
+function num(){
+    let c= document.getElementById('head4')
+    if(c.textContent==="pratima"){
+          c.textContent="pramita";
+    }
+    else{
+        c.textContent="pratima";
+    }
 
-// }
+}
 
-// function yes(){
-//     let b= document.getElementById('head6')
-//     b.textContent="get lost"
-//     b.style.color="blue"
+function yes(){
+    let b= document.getElementById('head6')
+    b.textContent="get lost"
+    b.style.color="blue"
     
-// }
+}
 
 // let count=0
 // function add(){
