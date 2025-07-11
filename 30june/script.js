@@ -79,12 +79,20 @@ function num(){
 
 }
 
-function yes(){
-    let b= document.getElementById('head6')
-    b.textContent="get lost"
-    b.style.color="blue"
-    
-}
+// function yes(){
+//     let b= document.getElementById('head6')
+//     b.textContent="get lost"
+//     // document.body.style.backgroundColor="blue"
+//     if(document.body.style.backgroundColor=="white"){
+//         document.body.style.backgroundColor="red"
+        
+//     }
+//     else{
+//        document.body.style.backgroundColor="white"
+
+
+//     }
+// }
 
 // let count=0
 // function add(){
@@ -167,6 +175,24 @@ function yes(){
 //     let a=document.getElementById('zero')
 //     a.textContent=count
 // }
+
+
+let count=0
+function sub(){
+    if (count >0){
+        count--
+        let b = document.getElementById('zero')
+        b.textContent=count
+
+    }
+}
+function add(){
+    if(count<5){
+        count++
+        let c= document.getElementById('zero')
+        c.textContent=count
+    }
+}
 
 
 
