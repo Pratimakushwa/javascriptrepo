@@ -24,12 +24,12 @@ let storedataa=JSON.parse(localStorage.getItem('signdata'))
 console.log(storedataa);
 
 function logindata(){
-    let logindata={
+    let logind={
         email:document.querySelector('#loginemail').value,
-        password:document.querySelector('#loginpass').value ,
+        password:document.querySelector('#loginpass').value,
     
     }
-    if(storedataa.email !== logindata.email || storedataa.password !== logindata.password){
+    if(storedataa.email!=logind.email || storedataa.password!=logind.password){
         alert("user not found")
         return false
     }
