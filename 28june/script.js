@@ -14,14 +14,26 @@
 // b.style.color="pink"
 
 // let image =document.getElementById('image')
-image.src="fake.jpeg"
-// image.style.borderRadius="50%"
+// image.src="fake.jpeg"
+// // image.style.borderRadius="50%"
 
-let b= document.getElementById('head3')
+
+// let b= document.getElementById('head3')
+// b.setAttribute('align','center')
+
+
+// let head4= document.getElementById('head4')
+
+
+// head4.removeAttribute('style')
+
+
+let b= document.getElementById('head1')
+
+
+b.style.backgroundColor="red"
+b.textContent="js"
+b.style.color="blue"
 b.setAttribute('align','center')
-
-
-let head4= document.getElementById('head4')
-
-head4.removeAttribute('style')
-
+let c= document.getElementById('imge')
+// c.src="fake.jpeg"

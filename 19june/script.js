@@ -148,10 +148,12 @@ for (let i = 5; i>= 1; i--) {
 // console.log(c);
 // console.log(typeof c);
 
-let num= [1,2,3,4,5]
-console.log(num.length);
-delete num[0]
-console.log(num);
+// let num= [1,2,3,4,5]
+// console.log(num.length);
+// delete num[0]
+// console.log(num);
+
+
 
 
 

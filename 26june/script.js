@@ -17,6 +17,7 @@
    //es6
     // arrow function is used for one linier code 
     // anamous function
+    
 
     // let fun=()=>{return console.log("hii") }
     // // fun()//as function work
@@ -24,6 +25,7 @@
     
     // let demo=(a)=>{ return a+a}
     //  console.log(demo(2));
+
     
     
     // let ob={
@@ -35,6 +37,7 @@
     //   },
     //   country: ()=>{return "india"}
     // }
+
     // ob.location()
     // console.log(ob.country());
     // //write a program to take three input from the user and ptint multiplcation of  using function
@@ -47,7 +50,7 @@
   //   let c= parseInt(prompt(" enter the third number"))
   //   let result=sum(a,b,c)
   //   console.log(result);
-    
+  
 
     // write a program to take radius from user and print the area of circle using type 4 fuction
   //    function demo(){
@@ -94,23 +97,24 @@
   //  let a= prompt("enter the name")
   //  name(a)
 
-  let obj={
-    name:"pratima",
-    age:21,
-    contact:1234576,
-    location: function(){
-     let c= prompt("enter your name")
-    },
-    country: ()=>{
-      return "india"
-    }
+  // let obj={
+  //   name:"pratima",
+  //   age:21,
+  //   contact:1234576,
+  //   location: function(){
+  //    let c= prompt("enter your location")
+  //   },
 
-  }
-  // obj.email=" @23456gmail.com"
-  // console.log(obj);
-  
-  obj.location()
+  //   country: ()=>{
+  //     return "india"
+  //   }
+
+  // }
+  // // obj.email=" @23456gmail.com"
   // // console.log(obj);
+  
+  // obj.location()
+  // // // console.log(obj);
   // console.log(obj.name);
   // console.log(obj.age);
   // console.log(Object.keys(obj));
