@@ -1,0 +1,11 @@
+{
+    "userdata":[
+        {
+            "name":"aman",
+            "age":21,
+            "contact": 123567,
+            "city": "bhopal"
+
+        }
+    ]
+}

@@ -101,35 +101,35 @@
 // console.log ( Object.keys(obj)[0]);//print only one key6
 
 
-// let ob={
-//     name:"pratima",
-//     age:21,
-//     contact:55667890,
+let ob={
+    name:"pratima",
+    age:21,
+    contact:55667890,
    
 
-// }
-// ob.email="pratima@23"
+}
+ob.email="pratima@23"
 
-// for (let k in ob){
-//     //  console.log(k)
-//      console.log(ob[k]);
+for (let k in ob){
+ console.log(k, ob[k])
+// console.log(ob[k]);
      
 
-// }
-// // console.log(Object.keys(ob)[0]);
-
-
-
-
-let obj={
-    name: "pratima",
-    age:prompt("enter your age")
-
 }
-obj.email=" pratia@gmail"
-console.log(obj);
+// console.log(Object.keys(ob)[0]);
 
-console.log(obj.name);
+
+
+
+// let obj={
+//     name: "pratima",
+//     age:prompt("enter your age")
+
+// }
+// obj.email=" pratia@gmail"
+// console.log(obj["age"]);
+
+// console.log(obj.name);
 
 
 

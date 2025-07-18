@@ -7,7 +7,7 @@
 
 // fatch () => promise =>async  await is use get data
 
-// json // javascript object notesion
+// json // javascript object notation
 
 async function demo(){
     let response= await fetch("https://jsonplaceholder.typicode.com/comments")
@@ -33,3 +33,5 @@ savedata.innerHTML=apidata
 }
 demo()
 
+
+ 
