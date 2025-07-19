@@ -3,7 +3,7 @@
 // http method
 // get post, delete, put ,patch
 
-// API  application programing inerface
+// API  application programing interface
 
 // fatch () => promise =>async  await is use get data
 

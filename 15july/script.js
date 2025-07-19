@@ -1,3 +1,5 @@
+// string methods
+
 let str="hacker space"
 console.log(str[1]);
 console.log(str.length);
@@ -37,5 +39,8 @@ let str2="we are developer"
  let fname="md"
  let mname="quism"
  let lname="khan"
- console.log("my name"+" " + fname +" " + "mname+" " + lame);
+ console.log("my name"+" " + fname +" " + mname +" " +lname);
+
+ 
+ console.log(`my name ${fname} and ${mname} and last name ${lname}`);
  
