@@ -21,6 +21,7 @@ async function fet(){
     document.querySelector('#storedata').innerHTML=st
     
 }
+
 fet()
 function mydelete(id){
     fetch(`http://localhost:3000/userdata/${id}`,{
@@ -55,6 +56,8 @@ function postdata(){
 
 
 }
+
+
 
 
 
