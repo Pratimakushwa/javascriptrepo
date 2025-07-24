@@ -17,6 +17,58 @@
     <i class="fa-solid fa-chair"></i><br>
     <i class="fa-solid fa-chair"></i>
 
+
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dark Light Toggle</title>
+  <style>
+    /* body {
+      background-color: white;
+      color: black;
+      transition: all 0.3s ease;
+    } */
+
+    .dark-mode {
+      background-color: black;
+      color: white;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 18px;
+      margin: 20px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <button onclick="toggleMode()" id="modeBtn">Dark</button>
+
+  <script>
+    function toggleMode() {
+      let body = document.body;
+      let btn = document.getElementById("modeBtn");
+
+      body.classList.toggle("dark-mode");
+
+      if (body.classList.contains("dark-mode")) {
+        btn.textContent = "Light";
+      body.style.backgroundColor="white"
+      } else {
+        btn.textContent = "Dark";
+
+      }
+    }
+  </script>
+
+</body>
+</html>
+
+
    
 
     <script src="script.js"></script>

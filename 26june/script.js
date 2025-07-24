@@ -110,8 +110,8 @@
   //   }
 
   // }
-  // // obj.email=" @23456gmail.com"
-  // // console.log(obj);
+  // obj.email=" @23456gmail.com"
+  // console.log(obj);
   
   // obj.location()
   // // // console.log(obj);
@@ -124,6 +124,18 @@
 // obj.location();
 // console.log(obj.country());
 
+
+let obj={
+  name:"pratima",
+  age:21,
+  contact:23456,
+  city:() =>{
+    return "india"
+
+  }
+}
+obj.email="@pohfvh.com"
+console.log(obj);
 
 
 

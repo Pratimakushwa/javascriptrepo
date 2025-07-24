@@ -28,12 +28,27 @@
 // head4.removeAttribute('style')
 
 
-let b= document.getElementById('head1')
+// let b= document.getElementById('head1')
 
 
-b.style.backgroundColor="red"
-b.textContent="js"
-b.style.color="blue"
-b.setAttribute('align','center')
-let c= document.getElementById('imge')
-// c.src="fake.jpeg"
+// b.style.backgroundColor="red"
+// b.textContent="js"
+// b.style.color="blue"
+// b.setAttribute('align','center')
+// let c= document.getElementById('imge')
+// // c.src="fake.jpeg"
+
+const smileBtn = document.getElementById("smileBtn");
+    const blinkBtn = document.getElementById("blinkBtn");
+    const emojiDisplay = document.getElementById("emojiDisplay");
+    const emojiname = document.getElementById("emojiname");
+
+    smileBtn.addEventListener("click", function () {
+      emojiDisplay.innerText = "😊";
+      emojiname.textContent="smile"
+    });
+
+    blinkBtn.addEventListener("click", function () {
+      emojiDisplay.innerText = "😉";
+      emojiname.textContent="blink"
+    })

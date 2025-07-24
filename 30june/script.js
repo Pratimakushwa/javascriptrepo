@@ -31,21 +31,23 @@
 //     c.style.color="red"
 // }
 
-// function fun(){
-//     let c= document.getElementById('head1')
-//     c.textContent="red"
-//     document.body.style.backgroundColor="red"
-// }
-// function change(){
-//     let d= document.getElementById('head1')
-//     d.textContent="green"
-//     document.body.style.backgroundColor="green"
-// }
-// function text(){
-//     let b= document.getElementById('head1')
-//     b.textContent="yellow"
-//     document.body.style.backgroundColor="yellow"
-// }
+function fun(){
+    let c= document.getElementById('head1')
+    c.textContent="red"
+    document.body.style.backgroundColor="red"
+}
+function change(){
+    let d= document.getElementById('head1')
+    d.textContent="green"
+    document.body.style.backgroundColor="green"
+}
+function text(){
+    let b= document.getElementById('head1')
+    let t= document.getElementById('btn3')
+    t.textContent="yellow"
+    b.textContent="yellow"
+    document.body.style.backgroundColor="yellow"
+}
 
 // function fun(a){
 //     let h1= document.getElementById('head1')

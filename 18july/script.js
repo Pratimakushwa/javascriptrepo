@@ -13,16 +13,55 @@ async function fet(){
     <td> ${ item.age}</td>
     <td> ${ item.contact}</td>
     <td> ${ item.city}</td>
-   <td><button onclick="mydelete(${item.id})">Delete</button></td>
+   <td><button onclick="mydelete('${item.id}')">Delete</button></td>
+   <td><button onclick="myedit('${item.id}')">edit data</button></td>
 
     </tr>
 
     `).join(" ")
     document.querySelector('#storedata').innerHTML=st
-    
 }
 
 fet()
+
+async function myedit(id){
+    let res=await fetch(`http://localhost:3000/userdata/${id}`)
+    let userdata=await res.json()
+    let userinput=`<h1>  edit your data</h1>
+    <input type="text" value="${userdata.id}" id="id1" readonly /> <br><br>
+    <input type="text" value="${userdata.name}"  id="name1" /> <br><br>
+    <input type="text" value="${userdata.age}"  id="age1" />  <br><br>
+    <input type="text" value="${userdata.contact}" id="contact1" /> <br><br>
+    <input type="text" value="${userdata.city}"  id="city1" /> <br><br>
+    
+    <input type="submit" onclick="finaledit('${ userdata.id}')"/><br><br>
+    `
+    document.querySelector('#editfrm').innerHTML=userinput
+    
+}
+const finaledit = (id)=>{
+    let usereditdata={
+        id:document.querySelector('#id1').value,
+        name:document.querySelector('#name1').value,
+        age:document.querySelector('#age1').value,
+        contact:document.querySelector('#contact1').value,
+        city:document.querySelector('#city1').value,
+    }
+    fetch(`http://localhost:3000/userdata/${id}`,{
+        method:"PUT",
+        headers:{
+            'Content-type':'application/json'
+        },
+        body:JSON.stringify(usereditdata)
+     
+    })
+      .then(()=>alert("edit sucessfuly..."))
+}
+
+
+
+
+
 function mydelete(id){
     fetch(`http://localhost:3000/userdata/${id}`,{
          method:"DELETE"
@@ -47,7 +86,7 @@ function postdata(){
    fetch('http://localhost:3000/userdata',{
    method:"POST",
    headers:{
-    'content-type': 'application/json'
+    'Content-type': 'application/json'
 
    },
    body:JSON.stringify(frmdata)
