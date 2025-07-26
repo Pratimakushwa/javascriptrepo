@@ -87,36 +87,38 @@
 
 
 
-function getRandomColor(){
-return '#'+ Math.floor(Math.random()*1677725 ).toString(16)
+// function getRandomColor(){
+// return '#'+ Math.floor(Math.random()*1677725 ).toString(16)
  
 
-}
-setInterval(()=>{
-    let date=new Date
-    let time=date.toLocaleTimeString()
-    let ee=document.querySelector('#name')
-    ee.textContent=time
-    ee.style.color=getRandomColor()
-},1000)
+// }
+// setInterval(()=>{
+//     let date=new Date
+//     let time=date.toLocaleTimeString()
+//     let ee=document.querySelector('#name')
+//     ee.textContent=time
+//     ee.style.color=getRandomColor()
+// },1000)
 
 
-let date=new Date
-let arry=["sun","mon","tues","wed","thus","fri","sat"]
-let day=date.getDay()
-let day1=arry[day]
-let day2=document.querySelector('#day')
-day2.textContent=day1
+// let date=new Date
+// let arry=["sun","mon","tues","wed","thus","fri","sat"]
+// let day=date.getDay()
+// let day1=arry[day]
+// let day2=document.querySelector('#day')
+// day2.textContent=day1
 
-let date1=document.querySelector('#date')
-date1.textContent=date.getDate()
+// let date1=document.querySelector('#date')
+// date1.textContent=date.getDate()
 
-let month=["jan","feb","march","april","may","jun","july","august","sept","oct","novem","dec"]
-let day4=date.getMonth()
-let day5=month[day4]
-let months=document.querySelector('#month')
-months.textContent=day5
+// let month=["jan","feb","march","april","may","jun","july","august","sept","oct","novem","dec"]
+// let day4=date.getMonth()
+// let day5=month[day4]
+// let months=document.querySelector('#month')
+// months.textContent=day5
 
-let year=document.querySelector('#year')
-year.textContent=date.getFullYear()
+// let year=document.querySelector('#year')
+// year.textContent=date.getFullYear()
+
+
 
